@@ -6,10 +6,7 @@ import org.junit.Before;
 import org.junit.jupiter.api.Test;
 
 class StringTest {
-	@Before
-	public void before() {
-		System.out.println("before");
-	}
+
 	@Test
 	void testToDemonstrateAssertEqual() {
 		System.out.println("test1");
@@ -23,5 +20,8 @@ class StringTest {
 		//fail("Not yet implemented");
 		System.out.println("test2");
 	}
-	
+	@Before
+	public void before() {
+		System.out.println("before");
+	}
 }
