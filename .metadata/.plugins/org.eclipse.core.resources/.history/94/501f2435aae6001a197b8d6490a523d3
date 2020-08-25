@@ -3,7 +3,7 @@ package com.junit.quick.start;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
 
-import org.junit.AfterClass;
+import org.junit.After;
 import org.junit.BeforeClass;
 import org.junit.jupiter.api.Test;
 
@@ -25,8 +25,8 @@ class StringTest {
 		//fail("Not yet implemented");
 		System.out.println("test2");
 	}
-	@AfterClass
-	public static void AfterClass() {
-		System.out.println("After Class");
+	@After
+	public static void After() {
+		System.out.println("After");
 	}
 }
