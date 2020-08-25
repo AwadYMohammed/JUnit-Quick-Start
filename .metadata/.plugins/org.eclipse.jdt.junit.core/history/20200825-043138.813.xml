@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AllTests" project="junt-quick-start" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testcase name="com.junit.quick.start.AllTests" classname="com.junit.quick.start.AllTests" time="0.001" displayname="AllTests" uniqueid="[engine:junit-vintage]/[runner:com.junit.quick.start.AllTests]"/>
+</testrun>

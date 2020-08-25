@@ -5,7 +5,7 @@ import org.junit.BeforeClass;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
-class StringTest {
+public class StringTest {
 	@BeforeClass
 	public static void beforeClass() {
 		System.out.println("before Class");
