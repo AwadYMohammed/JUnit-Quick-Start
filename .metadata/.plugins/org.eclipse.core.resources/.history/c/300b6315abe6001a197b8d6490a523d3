@@ -3,15 +3,14 @@ package com.junit.quick.start;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Assertions;
 
 class StringTest {
 	@BeforeClass
 	public static void beforeClass() {
 		System.out.println("before Class");
 	}
-	@Test(expected=NullPointerException.class)
-	public void testException() {
+	@Test(expected = NullPointerException.class)
+	void testException() {
 	String value = null;
 	value.toUpperCase();
 		

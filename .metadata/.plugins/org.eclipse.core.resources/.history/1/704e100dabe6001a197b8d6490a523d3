@@ -1,9 +1,11 @@
 package com.junit.quick.start;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
+
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Assertions;
 
 class StringTest {
 	@BeforeClass
@@ -11,7 +13,8 @@ class StringTest {
 		System.out.println("before Class");
 	}
 	@Test(expected=NullPointerException.class)
-	public void testException() {
+
+	void testException() {
 	String value = null;
 	value.toUpperCase();
 		

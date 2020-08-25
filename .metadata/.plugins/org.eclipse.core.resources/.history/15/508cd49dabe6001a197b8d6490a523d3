@@ -10,7 +10,10 @@ class StringTest {
 	public static void beforeClass() {
 		System.out.println("before Class");
 	}
-	@Test(expected=NullPointerException.class)
+	
+	
+	Assertions.assertThrows(IllegalArgumentException.class, () -> null.toUpperCase());
+	
 	public void testException() {
 	String value = null;
 	value.toUpperCase();
