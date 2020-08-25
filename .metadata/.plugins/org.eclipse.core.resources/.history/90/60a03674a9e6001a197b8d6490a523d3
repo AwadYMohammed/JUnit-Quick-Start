@@ -6,7 +6,7 @@ import org.junit.Before;
 import org.junit.jupiter.api.Test;
 
 class StringTest {
-	@org.junit.Before
+	@Before
 	public void before() {
 		System.out.println("before");
 	}
@@ -23,8 +23,5 @@ class StringTest {
 		//fail("Not yet implemented");
 		System.out.println("test2");
 	}
-	@org.junit.After
-	public void After() {
-		System.out.println("After");
-	}
+	
 }
