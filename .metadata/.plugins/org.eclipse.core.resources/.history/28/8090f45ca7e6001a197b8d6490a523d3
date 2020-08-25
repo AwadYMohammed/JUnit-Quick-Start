@@ -8,7 +8,7 @@ class StringTest {
 
 	@Test
 	void test() {
-		//a test with zero asserts will always succeed ;
+		//fail("Not yet implemented");
 	}
 	@Test
 	void test2() {
