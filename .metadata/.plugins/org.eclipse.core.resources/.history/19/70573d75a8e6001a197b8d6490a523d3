@@ -8,11 +8,7 @@ class StringTest {
 
 	@Test
 	void testToDemonstrateAssertEqual() {
-		//
-		int actualOutput = Math.min(5, 10);
-		int expectedOutput = 5;
-		assertEquals(expectedOutput, actualOutput);
-		fail();
+		assertEquals(2, 3);
 	}
 	@Test
 	void test2() {

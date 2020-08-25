@@ -10,7 +10,7 @@ class StringTest {
 	void testToDemonstrateAssertEqual() {
 		//
 		int actualOutput = Math.min(5, 10);
-		int expectedOutput = 5;
+		int expectedOutput = 6;
 		assertEquals(expectedOutput, actualOutput);
 		fail();
 	}
